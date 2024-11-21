@@ -33,7 +33,7 @@ secret_message = [
 #   Если нужны вычисления и разные пробы - делайте это в консоли пайтона, тут нужен только результат
 
 # TODO вывести расшифрованное сообщение
-secret_message for i in secret_message:
+for i in secret_message:
     sm = secret_message
 
 m1 = sm[0][3]
